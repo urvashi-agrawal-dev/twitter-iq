@@ -1,0 +1,12 @@
+{
+    "manifest_version":3,
+    "name":"twitter_iq",
+    "version":3,
+    "description":"shows the iq",
+    "permissions":["scripting","activeTab"],
+    "content_scripts":[
+    {
+        "matches":"x.com",
+        "js":["content.js"]
+    }
+}
